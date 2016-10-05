@@ -27,6 +27,8 @@ class ViewController: UIViewController {
     
   
     @IBAction func showFunFact() {
+        let randomColor = ColorModel().getRandomColor()
+        view.backgroundColor = randomColor
         funFactLabel.text = factModel.getRandomFact()
     }
 }
