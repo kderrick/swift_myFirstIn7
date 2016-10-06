@@ -102,6 +102,8 @@
 				TargetAttributes = {
 					B37592D91DA3FA4F00AFF39E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = KG6Q37GM4P;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -257,10 +259,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KG6Q37GM4P;
 				INFOPLIST_FILE = InterestingFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.epicodus.InterestingFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -268,10 +272,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KG6Q37GM4P;
 				INFOPLIST_FILE = InterestingFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.epicodus.InterestingFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

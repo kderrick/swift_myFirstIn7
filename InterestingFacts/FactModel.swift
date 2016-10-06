@@ -22,7 +22,7 @@ struct FactModel {
     
     
     func getRandomFact() -> String {
-        let randomNumber = GKRandomSource.sharedRandom().nextIntWithUpperBound(facts.count)
+        let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: facts.count)
         return facts[randomNumber]
     }
 }
